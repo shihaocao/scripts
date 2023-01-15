@@ -32,3 +32,19 @@ https://superuser.com/questions/71028/batch-converting-png-to-jpg-in-linux
 ```
 magick D81_3779.JPG -white-balance -brightness-contrast 16x5 output2.jpg
 ```
+
+# WIFI nonsense
+
+connect
+
+```
+sudo nmcli d wifi connect <SSID> password <PW>
+```
+
+find IP of IoT device
+
+```
+nmap -sP 192.168.1.*
+```
+
+`iwconfig` for which wifi
